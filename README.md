@@ -1,4 +1,4 @@
-# buzzline-02-case
+# buzzline-02-monsuru
 
 Streaming data is often too big for any one machine. 
 A streaming platform helps organize our pipelines.
@@ -15,7 +15,7 @@ We write producers that send data to topics and consumers that read from topics.
 
 ## Task 1. Install and Start Kafka (using WSL if Windows)
 
-Before starting, ensure you have completed the setup tasks in <https://github.com/denisecase/buzzline-01-case> first. 
+Before starting, ensure you have completed the setup tasks in https://github.com/don4ye/buzzline-02-monsuru> first. 
 Python 3.11 is required. 
 
 In this task, we will download, install, configure, and start a local Kafka service. 
@@ -55,13 +55,13 @@ Use the commands below to activate .venv, and start the producer.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m producers.kafka_producer_case
+py -m producers.kafka_producer_prince
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m producers.kafka_producer_case
+python3 -m producers.kafka_producer_prince
 ```
 
 ## Task 5. Start a Kafka Consumer
@@ -74,13 +74,13 @@ Use the commands below to activate .venv, and start the consumer.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m consumers.kafka_consumer_case
+py -m consumers.kafka_consumer_prince
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.kafka_consumer_case
+python3 -m consumers.kafka_consumer_prince
 ```
 
 ## Later Work Sessions

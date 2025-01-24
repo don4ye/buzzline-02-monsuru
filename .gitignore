@@ -11,3 +11,18 @@ __pycache__/
 
 # macOS system files
 .DS_Store
+
+# Exclude virtual environments
+.venv/
+
+# Exclude log files and streaming data
+logs/
+*.log
+
+# Exclude Kafka data and temporary files
+kafka-logs/
+tmp/
+
+# Exclude system files
+.DS_Store
+Thumbs.db

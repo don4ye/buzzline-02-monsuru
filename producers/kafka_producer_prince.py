@@ -1,4 +1,4 @@
-# kafka_producer_case.py
+# kafka_producer_prince.py
 
 # Produce real-time stock price updates to a Kafka topic.
 import os
